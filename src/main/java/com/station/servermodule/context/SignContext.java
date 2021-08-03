@@ -1,14 +1,13 @@
 package com.station.servermodule.context;
-public class SignContext {
 
+// Java_com_station_servermodule_context_SignContext_getClientID
+// Java_com_station_servermodule_context_SignContext_getClientSecret
+@SuppressWarnings("JniMissingFunction")
+public class SignContext {
 	static {
 		System.loadLibrary("native-lib");
 	}
 
-	public static String getId() {
-		return SignContext.getClientID("com.stationdm.bluelink", true);
-	}
-
-	public static native String getClientID(String str, Boolean bool);
-
+	public static native String getClientID(String str, boolean z);
+	public static native String getClientSecret(String str, boolean z);
 }

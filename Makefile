@@ -1,4 +1,4 @@
 build:
-	docker buildx build --platform=linux/arm64 -t hacksore/hks:local . --load
+	docker build -t hacksore/hks:local .
 test:
 	docker run hacksore/hks:local

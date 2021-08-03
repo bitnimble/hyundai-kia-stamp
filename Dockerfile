@@ -1,4 +1,4 @@
-FROM arm64v8/maven
+FROM maven
 
 COPY . /workspace
 WORKDIR /workspace
