@@ -1,0 +1,1 @@
+I need to know where we are getting the acompanying libs (libm, libdl, etc)

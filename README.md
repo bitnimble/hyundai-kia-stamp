@@ -36,3 +36,8 @@ docker run hacksore/hks "hyundai" "single" "99cfff84-f4e2-4be8-a5ed-e5b755eb6581
 docker run hacksore/hks "hyundai" "list" "99cfff84-f4e2-4be8-a5ed-e5b755eb6581" > list.txt
 docker run hacksore/hks "kia" "list" "e7bcd186-a5fd-410d-92cb-6876a42288bd" > list.txt
 ```
+
+# Notes
+Native libs and be found here from what I found https://github.com/innogames/android-ndk/tree/master/platforms/android-24/arch-arm64/usr/lib - This seems way outdated though?
+
+Was not able to find prebuilt bins when download NDK from google https://developer.android.com/ndk/downloads as I assume they are built by android studio from source
